@@ -1,0 +1,19 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+#Items
+item.ingotT2oopy.name=t2oopy's Magical Ingot
+item.gemT2oopy.name=t2oopy's Magical Gem
+
+#Armors
+item.bootsT2oopy.name=t2oopy's Magical Boots
+item.leggingsT2oopy.name=t2oopy's Magical Leggings
+item.chestplateT2oopy.name=t2oopy's Magical Chestplate
+item.helmetT2oopy.name=t2oopy's Magical Helmet
+
+#Blocks
+tile.oreCopper.name=Copper Ore
+tile.oreT2oopy.name=t2oopy's Magical Ore
+tile.netherOreT2oopy.name=t2oopy's Magical Nether Ore
+tile.blockT2oopy.name=t2oopy's Magical Block

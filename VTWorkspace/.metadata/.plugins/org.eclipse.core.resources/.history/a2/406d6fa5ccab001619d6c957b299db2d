@@ -1,0 +1,6 @@
+package com.rdsguild.mods.items;
+
+public class IITemOreDict {
+
+	void initOreDict();
+}

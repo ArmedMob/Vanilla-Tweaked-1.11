@@ -1,0 +1,89 @@
+[01:40:15] [Client thread/INFO]: Setting user: Player749
+[01:40:18] [Client thread/WARN]: Skipping bad option: lastServer:
+[01:40:18] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:40:19] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 11/16/16 1:40 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_102, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 783862080 bytes (747 MB) / 1100480512 bytes (1049 MB) up to 7616856064 bytes (7264 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 372.90' Renderer: 'GeForce GTX 970/PCIe/SSE2'
+[01:40:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vanilla Tweaked
+[01:40:22] [Client thread/INFO]: [STDOUT]: Red Dragons Guild:vtweaked: PreInitializationEvent Started!
+[01:40:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:40:24] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[01:40:24] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:40:24] [Thread-8/INFO]: OpenAL initialized.
+[01:40:25] [Sound Library Loader/INFO]: Sound engine started
+[01:40:28] [Client thread/INFO]: Created: 16x16 textures-atlas
+[01:40:29] [Client thread/INFO]: [STDOUT]: Red Dragons Guild: vtweaked: InitializationEvent Started!
+[01:40:29] [Client thread/INFO]: [STDOUT]: Red Dragons Guild: vtweaked: PostInitializationEvent Started!
+[01:40:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vanilla Tweaked
+[01:40:31] [Client thread/INFO]: SoundSystem shutting down...
+[01:40:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[01:40:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:40:31] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[01:40:31] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:40:31] [Thread-10/INFO]: OpenAL initialized.
+[01:40:31] [Sound Library Loader/INFO]: Sound engine started
+[01:40:34] [Client thread/INFO]: Created: 512x512 textures-atlas
+[01:40:34] [Client thread/WARN]: Skipping bad option: lastServer:
+[01:40:35] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[01:40:38] [Server thread/INFO]: Starting integrated minecraft server version 1.11
+[01:40:38] [Server thread/INFO]: Generating keypair
+[01:40:39] [Server thread/INFO]: Preparing start region for level 0
+[01:40:40] [Server thread/INFO]: Preparing spawn area: 84%
+[01:40:40] [Server thread/INFO]: Changing view distance to 12, from 10
+[01:40:41] [Server thread/INFO]: Player749[local:E:5b152f8c] logged in with entity id 325 at (-229.0806716428109, 64.0, 240.8284096562904)
+[01:40:41] [Server thread/INFO]: Player749 joined the game
+[01:40:42] [Server thread/INFO]: Saving and pausing game...
+[01:40:42] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Overworld
+[01:40:42] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Nether
+[01:40:42] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/The End
+[01:40:42] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@63dc2e46[id=e7d801f5-83cd-3782-a52b-ae99232cd193,name=Player749,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3054) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_102]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+[01:40:46] [Server thread/INFO]: Saving and pausing game...
+[01:40:46] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Overworld
+[01:40:47] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Nether
+[01:40:47] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/The End
+[01:41:00] [Server thread/INFO]: Saving and pausing game...
+[01:41:00] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Overworld
+[01:41:00] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/Nether
+[01:41:00] [Server thread/INFO]: Saving chunks for level '1.11 First Test World'/The End

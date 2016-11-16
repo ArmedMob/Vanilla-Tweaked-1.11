@@ -1,0 +1,33 @@
+package com.rdsguild.mods.proxies;
+
+import com.rdsguild.mods.blocks.VTBlocks;
+import com.rdsguild.mods.items.VTItems;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class CommonProxy {
+
+	public void preInit() {
+		
+	}
+	
+	public void init() {
+		
+		
+	}
+	
+	public void postInit() {
+		
+	}
+	
+	abstract public boolean playerIsInCreativeMode(EntityPlayer player);
+	
+	abstract public boolean isDedicatedServer();
+	
+	public void registerItemRenderer(Item item, int meta, String id) {		
+		
+	}
+}

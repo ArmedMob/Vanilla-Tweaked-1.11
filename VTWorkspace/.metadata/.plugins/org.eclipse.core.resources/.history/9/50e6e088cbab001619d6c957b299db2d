@@ -1,0 +1,5 @@
+package com.rdsguild.mods.blocks;
+
+public class BlockBase {
+
+}

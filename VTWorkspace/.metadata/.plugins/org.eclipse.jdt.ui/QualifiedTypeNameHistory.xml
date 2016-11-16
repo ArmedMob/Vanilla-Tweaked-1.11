@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.rdsguild.mods.proxies.CommonProxy"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="com.rdsguild.mods.VTweaked"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.MapColor"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
+<fullyQualifiedTypeName name="com.rdsguild.mods.items.IItemOreDict"/>
+<fullyQualifiedTypeName name="com.rdsguild.mods.items.IItemModelProvider"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.rdsguild.mods.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.rdsguild.mods.blocks.VTBlocks"/>
+</qualifiedTypeNameHistroy>

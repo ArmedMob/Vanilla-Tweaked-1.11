@@ -1,0 +1,16 @@
+[
+{
+  "modid": "vtweaked",
+  "name": "Vanilla Tweaked",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Armed Mob"],
+  "credits": "Red Dragons Guild",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
